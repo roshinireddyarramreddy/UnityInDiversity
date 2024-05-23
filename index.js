@@ -31,7 +31,7 @@ let display_func3 = function() {
 
 let display_func4 = function() {
     section_first_page.classList.add("hiding");
-    chn_page.classList.remove("chennai-Page");
+    chn_page.classList.remove("chennai-page");
 }
 
 let home_displ1 = function() {
