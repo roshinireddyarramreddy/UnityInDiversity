@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* body {
+    margin: 0px;
+}
+
+.container-main {
+    background-image: url("https://img.freepik.com/free-vector/india-cultural-symbols-patterns-poster_1284-4240.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.2.26245163.1680420513&semt=ais");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hyderabad-page {
+    display: none;
+}
+
+.banglore-page {
+    display: none;
+}
+
+.delhi-page {
+    display: none;
+}
+
+.chennai-page {
+    display: none;
+}
+
+.cont-heading {
+    color: black;
+    font-family: "Bree Serief";
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    background-image: url("https://img.freepik.com/free-photo/aerial-view-suzhou-overpass_1359-523.jpg?w=1060&t=st=1690091386~exp=1690091986~hmac=599a6cae1638b26e32852a16bf0c01088daa30bccc5828ba2243eaca891f74d7");
+    background-size: cover;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    padding: 5px;
+    margin: 15px;
+}
+
+.heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.main-heading {
+    color: #070c17;
+    font-family: "Bree Serief";
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.sub-heading {
+    color: #0b1529;
+    font-family: "Bree Serief";
+    font-weight: 700;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.content {
+    color: #170114;
+    font-family: "Bree Serief";
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    padding: 5px;
+    margin: 9px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.HYD {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/sunrise-vasco-da-gama-bridge-lisbon-portugal_268835-1338.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.1.26245163.1680420513&semt=sph");
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 5px;
+    color: white;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.BGL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/mumbai-skyline-skyscrapers-construction_469504-21.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.1.26245163.1680420513&semt=sph");
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 5px;
+    color: black;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.DL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/taj-mahal-agra-india_53876-47058.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.2.26245163.1680420513&semt=sph");
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 5px;
+    color: white;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.CHN {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/young-adults-enjoy-carefree-carnival-festivities-together-generated-by-ai_188544-41847.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.2.26245163.1680420513&semt=sph");
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    border-width: 0px;
+    padding: 5px;
+    color: black;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.city-img-container {
+    background-image: url("https://img.freepik.com/free-photo/mehrangarh-fort_1357-12.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.2.26245163.1680420513&semt=ais");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-head {
+    color: black;
+    font-family: "Bree Serief";
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.city-italic-head {
+    color: black;
+    font-weight: bold;
+    font-family: "Bree Serief";
+    font-style: italic;
+    font-size: 28px;
+}
+
+.city-content {
+    color: black;
+    font-weight: normal;
+    font-family: "Bree Serief";
+    font-size: 18px;
+}
+
+.button {
+    text-align: center;
+}
+
+.home-button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 5px;
+    margin: 10px;
+    height: 36px;
+    width: 136px;
+}
+
+.city-img-container-bgl {
+    background-image: url("https://img.freepik.com/free-photo/aerial-shot-city-buildings-toa-payoh-singapore-blue-sky_181624-14554.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.2.26245163.1680420513&semt=ais");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-img-container-dl {
+    background-image: url("https://img.freepik.com/free-photo/india-gate-mornings_181624-17306.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.2.26245163.1680420513&semt=ais");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-img-container-cnn {
+    background-image: url("https://img.freepik.com/free-photo/architecture-color-holy-beautiful-detail_1203-6106.jpg?size=626&ext=jpg&uid=R98270930&ga=GA1.1.26245163.1680420513&semt=sph");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiding {
+    display: none;
+}
